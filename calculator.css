@@ -1,0 +1,37 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: cadetblue;
+}
+.container{
+    border: 1px solid black;
+    height: 440px;
+    width: 300px;
+    background-color: aliceblue;
+}
+h2{
+    margin-left: 85px;
+}
+.display{
+    border: 1px solid black;
+    height: 60px;
+    background-color:skyblue;
+    margin: 10px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    border: 1px solid green;
+    width: 80px;
+    text-align: center;
+    color: blueviolet;
+    background-color: bisque;
+    font-size:xx-large;
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 12px;
+}
